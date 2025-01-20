@@ -1,3 +1,36 @@
-h1 {
-    text-align: center;
-  }
+.titre1{
+    color: red;
+}
+.titre2{
+    color: blue;
+}
+.titre3{
+    color: yellow;
+}
+.titre4{
+    color:beige;
+}
+.titre5{
+    font-size: 20px;
+}
+.titre6{
+    font-size: 2rem;
+}
+.para1{
+    font-weight: bold;
+}
+.para2{
+    font-weight: 100;
+}
+.span1{
+    font-family: Arial;
+}
+.span2{
+    font-family: Verdana;
+}
+.button1{
+    border-radius: 10px;
+}
+.button2{
+    border-radius: 10%;
+}

@@ -1,36 +1,126 @@
-.titre1{
-    color: red;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
-.titre2{
-    color: blue;
+
+input {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
 }
-.titre3{
-    color: yellow;
+
+.input2 {
+    background-color: #e6f7ff;
 }
-.titre4{
-    color:beige;
+
+.input-password {
+    background-color: #fff0f0;
 }
-.titre5{
-    font-size: 20px;
+
+.input-email {
+    background-color: #f9f9f9;
 }
-.titre6{
-    font-size: 2rem;
+
+.input-submit {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
 }
-.para1{
-    font-weight: bold;
+
+.input-submit:hover {
+    background-color: #45a049;
 }
-.para2{
-    font-weight: 100;
+
+.input-file {
+    background-color: #f0f0f0;
 }
-.span1{
-    font-family: Arial;
+
+.input-checkbox {
+    margin-left: 10px;
 }
-.span2{
-    font-family: Verdana;
+
+.input-radio {
+    margin-left: 10px;
 }
-.button1{
-    border-radius: 10px;
+
+.input-date {
+    background-color: #fff0e6;
 }
-.button2{
-    border-radius: 10%;
+
+.input-color {
+    background-color: #f0fff0;
+}
+
+.input-range {
+    background-color: #f0f0ff;
+}
+
+.input-reset {
+    background-color: #ffcccb;
+    color: white;
+    cursor: pointer;
+}
+
+.input-reset:hover {
+    background-color: #ff9999;
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+.divmaman{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 1rem;
+
+}
+
+.divspacebetween{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.divspacearound{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.divspaceevenly{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.divcenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 20px;
+
 }

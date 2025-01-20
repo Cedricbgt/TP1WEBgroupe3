@@ -1,126 +1,91 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-input {
-    display: flex;
-    margin: 10px 0;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 300px;
-}
-
-.input2 {
-    background-color: #e6f7ff;
-}
-
-.input-password {
-    background-color: #fff0f0;
-}
-
-.input-email {
-    background-color: #f9f9f9;
-}
-
-.input-submit {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
-
-.input-submit:hover {
-    background-color: #45a049;
-}
-
-.input-file {
-    background-color: #f0f0f0;
-}
-
-.input-checkbox {
-    margin-left: 10px;
-}
-
-.input-radio {
-    margin-left: 10px;
-}
-
-.input-date {
-    background-color: #fff0e6;
-}
-
-.input-color {
-    background-color: #f0fff0;
-}
-
-.input-range {
-    background-color: #f0f0ff;
-}
-
-.input-reset {
-    background-color: #ffcccb;
-    color: white;
-    cursor: pointer;
-}
-
-.input-reset:hover {
-    background-color: #ff9999;
-}
-
 .div1{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:coral;
 }
+
 .div2{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:coral;
 }
 .div3{
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-}
-.div4{
-    width: 200px;
-    height: 200px;
-    background-color: beige;
-}
-
-h1 {
+    width: 300px;
+    height: 500px;
+    background-color: white;
     text-align: center;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:coral;
 
+}
 .divmaman{
+    background-color: beige;
     display: flex;
-    gap: 30px;
-    margin-bottom: 1rem;
-
-}
-
-.divspacebetween{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-.divspacearound{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1rem;
-}
-.divspaceevenly{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
-}
-.divcenter{
-    display: flex;
+    height: 100vh;
+    flex-direction: row;
     justify-content: center;
-    margin-bottom: 1rem;
-    gap: 20px;
+    align-items: center;
+    gap : 5%;
+    padding: 1rem;
+}
 
+.divmaman div{
+    border-radius: 24px;
+    transform: 0.5s ease-in-out;
+    padding: 1px;
+}
+
+.divmaman div:hover{
+    scale: 1.1;
+}
+
+img{
+    height: 200px;
+    animation: monter-descendre 6s infinite ease-in-out;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes monter-descendre{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.btn{
+    padding: 5px 10px 6px 10px;
+    background: beige;
+    border: none;
+    border-radius: 10px;
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+    transform: 0.5s ease-in-out;
+}
+.btn:hover{
+    background-color: grey;
+    color: beige;
+    cursor: pointer;
+}
+
+.nombottes{
+    font-weight: bold;
+    color: black;
+    margin: 1rem 0rem;
 }
